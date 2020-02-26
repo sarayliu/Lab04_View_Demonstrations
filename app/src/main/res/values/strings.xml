@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Lab04 - View Demonstrations</string>
     <string name="message1">Layout 1</string>
-    <string name="message2">Layout 2</string>
     <string name="goBack">Back</string>
+    <string name="message2">Layout 2</string>
+    <string name="message3">Layout 3</string>
+    <string name="message4">Layout 4</string>
 </resources>

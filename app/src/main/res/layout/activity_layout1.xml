@@ -6,47 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".Layout1">
 
-    <TextView
-        android:id="@+id/textBox1"
+    <View
+        android:id="@+id/view1"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Hello World!"
-        android:gravity="center"
         android:background="#3F51B5"
-        android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textBox2"
+    <View
+        android:id="@+id/view2"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Hello World!"
-        android:gravity="center"
         android:background="#4CAF50"
-        android:textSize="20sp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textBox3"
+    <View
+        android:id="@+id/view3"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Hello World!"
-        android:gravity="center"
         android:background="#F44336"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
-    <TextView
-        android:id="@+id/textBox4"
+    <View
+        android:id="@+id/view4"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Hello World!"
-        android:gravity="center"
         android:background="#FFEB3B"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 

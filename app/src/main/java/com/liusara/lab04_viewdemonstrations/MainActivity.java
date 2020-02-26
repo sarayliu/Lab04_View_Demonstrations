@@ -10,6 +10,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button button1;
     Button button2;
+    Button button3;
+    Button button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +30,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent2 = new Intent(getApplicationContext(), Layout2.class);
                 startActivity(intent2);
+            }
+        });
+        button3 = findViewById(R.id.buttonLayout3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(getApplicationContext(), Layout3.class);
+                startActivity(intent3);
+            }
+        });
+        button4 = findViewById(R.id.buttonLayout4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4 = new Intent(getApplicationContext(), Layout4.class);
+                startActivity(intent4);
             }
         });
     }
