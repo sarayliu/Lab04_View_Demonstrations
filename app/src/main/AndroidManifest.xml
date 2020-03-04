@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Layout4"></activity>
+        <activity android:name=".Layout7"/>
+        <activity android:name=".Layout6" />
+        <activity android:name=".Layout5" />
+        <activity android:name=".Layout4" />
         <activity android:name=".Layout3" />
         <activity android:name=".Layout1" />
         <activity android:name=".Layout2" />
